@@ -2,7 +2,7 @@
 
 # Hola Luna
 
-Simulacion de caida libre de una caja aplicando de la fuerza de la gravedad de la luna.
+Simulacion de caida libre de una caja aplicando la fuerza de gravedad de la luna.
 
 ## Explicacion del codigo
 
