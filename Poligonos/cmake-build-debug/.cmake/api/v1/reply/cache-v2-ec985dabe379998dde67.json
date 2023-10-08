@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/Poligonos/cmake-build-debug"
+			"value" : "c:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/poligonos/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/Poligonos/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/poligonos/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/Poligonos"
+			"value" : "C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/poligonos"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Poligonos_"
+			"value" : "C:/Program Files (x86)/poligonos"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Poligonos_"
+			"value" : "poligonos"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1270,42 +1270,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Poligonos__BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/Poligonos/cmake-build-debug"
-		},
-		{
-			"name" : "Poligonos__IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Poligonos__SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/Poligonos"
-		},
-		{
 			"name" : "VCPKG_APPLOCAL_DEPS",
 			"properties" : 
 			[
@@ -1548,6 +1512,42 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Users/Tello/.vcpkg-clion/vcpkg/installed"
+		},
+		{
+			"name" : "poligonos_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/poligonos/cmake-build-debug"
+		},
+		{
+			"name" : "poligonos_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "poligonos_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/poligonos"
 		}
 	],
 	"kind" : "cache",

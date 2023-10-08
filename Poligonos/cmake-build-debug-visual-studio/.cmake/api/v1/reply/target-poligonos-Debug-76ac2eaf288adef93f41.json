@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Poligonos_.exe"
+			"path" : "poligonos.exe"
 		},
 		{
-			"path" : "Poligonos_.pdb"
+			"path" : "poligonos.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -14,7 +14,8 @@
 		"commands" : 
 		[
 			"_add_executable",
-			"add_executable"
+			"add_executable",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -37,6 +38,12 @@
 				"file" : 0,
 				"line" : 598,
 				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
 			}
 		]
 	},
@@ -46,7 +53,15 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/Tello/.vcpkg-clion/vcpkg/installed/x64-windows/include"
 				}
 			],
 			"language" : "CXX",
@@ -64,28 +79,33 @@
 			]
 		}
 	],
-	"id" : "Poligonos_::@6890427a1f51a3e7e1df",
+	"id" : "poligonos::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\Tello\\.vcpkg-clion\\vcpkg\\installed\\x64-windows\\debug\\lib\\box2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "Poligonos_",
-	"nameOnDisk" : "Poligonos_.exe",
+	"name" : "poligonos",
+	"nameOnDisk" : "poligonos.exe",
 	"paths" : 
 	{
 		"build" : ".",

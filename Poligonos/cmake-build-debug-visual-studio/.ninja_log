@@ -1,0 +1,23 @@
+# ninja log v5
+1	604	7184489030180664	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+604	1481	7184489035112813	poligonos.exe	7cb1e55d945da4c6
+1	529	7184489293534143	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+529	1288	7184489296780838	poligonos.exe	7cb1e55d945da4c6
+1	765	7184496445034421	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+766	1511	7184496448455137	poligonos.exe	7cb1e55d945da4c6
+1	499	7184500723567731	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+500	1146	7184500726010881	poligonos.exe	7cb1e55d945da4c6
+0	538	7184502849873158	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+539	1201	7184502852452484	poligonos.exe	7cb1e55d945da4c6
+1	476	7184503309194027	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+477	1146	7184503311765199	poligonos.exe	7cb1e55d945da4c6
+0	772	7184509534427781	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+773	1492	7184509537593495	poligonos.exe	7cb1e55d945da4c6
+0	340	7184509676529089	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+341	965	7184509678830647	poligonos.exe	7cb1e55d945da4c6
+1	519	7184510146672014	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+520	1207	7184510149308215	poligonos.exe	7cb1e55d945da4c6
+1	357	7184510230913600	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+357	1031	7184510233605166	poligonos.exe	7cb1e55d945da4c6
+0	500	7184510404741990	CMakeFiles/poligonos.dir/main.cpp.obj	cbbdfc1701023455
+500	1204	7184510407449042	poligonos.exe	7cb1e55d945da4c6
