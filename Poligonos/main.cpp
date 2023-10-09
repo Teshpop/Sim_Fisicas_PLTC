@@ -48,5 +48,51 @@ int main() {
     Square.Set(verticesSquare, countSqu);
     fixtureDefSquare.shape = &Square;
 
+    //Pentagono
+    b2FixtureDef fixtureDefPentagon;
+    b2PolygonShape Pentagon;
+    b2Vec2 verticesPent[5];
+    int32 countPen = 5;
+
+    verticesPent[0].Set(0.0f, 0.0f);
+    verticesPent[1].Set(-0.5f, 1.0f);
+    verticesPent[2].Set(0.5f, 1.5f);
+    verticesPent[3].Set(1.5f, 1.0f);
+    verticesPent[4].Set(1.0f, 0.0f);
+    Pentagon.Set(verticesPent, countPen);
+    fixtureDefPentagon.shape = &Pentagon;
+
+    //Hexagonos
+    b2FixtureDef fixtureDefHex;
+    b2PolygonShape Hexagon;
+    b2Vec2 verticesHexagon[6];
+    int32 countHex = 6;
+
+    verticesHexagon[0].Set(0.0f, 0.0f);
+    verticesHexagon[1].Set(1.0f,  0.5f);
+    verticesHexagon[2].Set(1.0f, 1.5f);
+    verticesHexagon[3].Set(0.0f, 2.0f);
+    verticesHexagon[4].Set(-1.0f, 1.5f);
+    verticesHexagon[5].Set(-1.0f, 0.5f);
+    Hexagon.Set(verticesHexagon, countHex);
+    fixtureDefHex.shape = &Hexagon;
+
+    //Octagono
+    b2FixtureDef fixtureDefOct;
+    b2PolygonShape Octagon;
+    b2Vec2 verticesOctagon[8];
+    int32 countOct = 8;
+
+    verticesOctagon[0].Set(0.0f, 0.0f);
+    verticesOctagon[1].Set(1.0f, 0.0f);
+    verticesOctagon[2].Set(2.0f, 1.0f);
+    verticesOctagon[3].Set(2.0f, 2.0f);
+    verticesOctagon[4].Set(1.0f, 3.0f);
+    verticesOctagon[5].Set(0.0f, 3.0f);
+    verticesOctagon[6].Set(-1.0f, 2.0f);
+    verticesOctagon[7].Set(-1.0f, 1.0f);
+    Octagon.Set(verticesOctagon, countOct);
+    fixtureDefOct.shape = &Octagon;
+
     return 0;
 }
