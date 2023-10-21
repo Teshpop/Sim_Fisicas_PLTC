@@ -43,4 +43,5 @@ int main(){
         float angle = body ->GetAngle();
         printf("%4.2f %4.2f %4.2f\n", position.x, position.y, angle);
     }
+
 }
