@@ -2,7 +2,8 @@
 
 int main() {
     //Dist();
-    Revolute();
+    //Revolute();
+    Pris();
     //Gear();
     return 0;
 }

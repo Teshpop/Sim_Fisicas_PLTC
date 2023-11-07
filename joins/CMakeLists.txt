@@ -7,7 +7,9 @@ add_executable(joins main.cpp
         ref.h
         Dist.cpp
         Gear.cpp
-        Revolute.cpp)
+        Revolute.cpp
+        Prismatic.cpp
+)
 
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)
 target_link_libraries(joins PRIVATE sfml-system sfml-network sfml-graphics sfml-window)

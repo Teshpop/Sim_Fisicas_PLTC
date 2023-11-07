@@ -17,6 +17,7 @@ const float P2M = 1.0f/20.0f; //Pixeles a metros
 void Dist();
 void Gear();
 void Revolute();
+void Pris();
 
 class Cube{
 public:

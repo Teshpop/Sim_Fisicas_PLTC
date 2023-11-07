@@ -1,0 +1,3 @@
+C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/Contactos/cmake-build-debug-visual-studio/CMakeFiles/Contactos.dir
+C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/Contactos/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/Tello/OneDrive/TrabajosUni/Semestre5/Fisica/Proyectos/Contactos/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
